@@ -1,0 +1,23 @@
+.ubicacion{
+    background-color: #fedb35;
+    height: 600px; 
+}
+
+  .gMap {
+  margin-top: 20px;
+  border: 0;
+  width: 650px;
+  height: 450px; 
+  position: fixed;
+  margin-left: 20%;
+  
+
+  }
+  .tituloUbicacion{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    text-align:left;
+    font-weight: bold;
+    margin-left: 50px;
+}
+

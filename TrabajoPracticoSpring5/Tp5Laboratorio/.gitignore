@@ -1,0 +1,6 @@
+#react
+node_modules/
+FrontEndInstrumentos/public
+
+#backend
+backendInstrumentos/src/main/resources/application.properties

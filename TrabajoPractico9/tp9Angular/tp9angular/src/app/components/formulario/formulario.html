@@ -1,0 +1,53 @@
+<h3 class="tituloForm">Formulario instrumento</h3>
+
+<div class="col-md-8">
+    <form (ngSubmit)="agregar()">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" [(ngModel)]="instrumento.instrumento" name="nombre" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="marca">Marca</label>
+            <input id="marca" [(ngModel)]="instrumento.marca" name="marca" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="modelo">Modelo</label>
+            <input id="modelo" [(ngModel)]="instrumento.modelo" name="modelo" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="precio">Precio</label>
+            <input id="precio" [(ngModel)]="instrumento.precio" name="precio" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="descripcion">Descripcion</label>
+            <input id="descripcion" [(ngModel)]="instrumento.descripcion" name="descripcion" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="cantidad">Cantidad Vendida</label>
+            <input id="cantidad" [(ngModel)]="instrumento.cantidadVendida" name="cantidad" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="envio">Precio envío</label>
+            <input id="envio" [(ngModel)]="instrumento.precioEnvio" name="envio" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="imagen">Imagen</label>
+            <input id="imagen" class="form-control-file" name="imagen" type="file" (change)="handleFileInput($event.target.files)">
+        </div>
+        <div class="custom-control custom-checkbox">
+            <input id="habilitado" class="custom-control-input" [(ngModel)]="instrumento.estaHabilitado" type="checkbox" name="habilitado" value="true">
+            <label for="habilitado" class="custom-control-label">Habilitado</label>
+        </div>
+        <div class="divBotonEnviar">
+        <button type="submit" class="botonEnviar">Guardar Instrumento</button>
+        </div>
+          
+            
+
+       
+
+
+
+
+    </form>
+</div>

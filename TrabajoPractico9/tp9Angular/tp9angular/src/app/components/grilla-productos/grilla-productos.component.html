@@ -1,0 +1,23 @@
+<div class="contenedor"><h1>Lista de Instrumentos</h1>
+    <div class="card mb-3" style="max-width: 800px;" *ngFor="let instrumento of instrumentosArray; let i = index">
+        <div class="row no-gutters" >
+          <div class="col-md-4">
+          <a href="/detalle/{{instrumento.id}}">  <img src="http://localhost:9002/imagenes/{{instrumento.urlImagen}}" class="card-img" alt="imagen {{instrumento.instrumento}}"></a>
+        </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{instrumento.instrumento}}</h5>
+              <h3 class="card-text">$ {{instrumento.precio}}</h3>
+              <p style="color:green;font-size:10pt" *ngIf="instrumento.precioEnvio == 'G'; else costoEnvio"><img src="http://localhost:9002/imagenes/camion.png" >Envío gratis a todo el país</p>                           
+              <ng-template #costoEnvio>
+                <p  style="color:orange;font-size:10pt">Costo de Envío Interior de Argentina: ${{instrumento.precioEnvio}}</p>
+              </ng-template>
+              <p class="card-text">{{instrumento.cantidadVendida}} vendidos</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+</div>

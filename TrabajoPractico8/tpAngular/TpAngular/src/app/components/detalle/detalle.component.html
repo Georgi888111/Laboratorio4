@@ -1,0 +1,55 @@
+<div class="contenedor">
+  <div class="card text-left">
+    <div class="row">
+      <div
+        class="col-lg-8"
+        style="float: left; width: 45%; margin: 20px 0 0 20px;"
+      >
+        <img
+          style="width: 35%;"
+          class="card-img-top"
+          src="assets/images/{{ instrumento.imagen }}"
+          alt=""
+        />
+        <div class="card-body">
+          <h4 class="card-title">Descripción</h4>
+          <p class="card-text" style="width: 60%;">
+            {{ instrumento.descripcion }}
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="col-lg-3"
+        style="float: right; width: 45%; margin: 20px 0 0 0;"
+      >
+        <span>{{ instrumento.cantidadVendida }} vendidos</span>
+        <br />
+        <h4>{{ instrumento.instrumento }}</h4>
+        <br />
+        <h3>${{ instrumento.precio }}</h3>
+        <br />
+        <span>Marca: {{ instrumento.marca }}</span>
+        <br />
+        <span>Modelo: {{ instrumento.modelo }}</span>
+        <br />
+        <br />
+        <span>Costo de envío:</span>
+        <p
+          style="color: green; font-size: 10pt;"
+          *ngIf="instrumento.costoEnvio == 'G'; else costoEnvio"
+        >
+          <img src="assets/images/camion.png" />Envío gratis a todo el país
+        </p>
+        <ng-template #costoEnvio>
+          <p style="color: orange; font-size: 10pt;">
+            Costo de Envío Interior de Argentina: ${{ instrumento.costoEnvio }}
+          </p>
+        </ng-template>
+        <br />
+        <br />
+        <button class="btn btn-primary btn-block">Agregar al carrito</button>
+      </div>
+    </div>
+  </div>
+</div>

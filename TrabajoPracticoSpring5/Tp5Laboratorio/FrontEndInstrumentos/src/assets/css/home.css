@@ -1,0 +1,20 @@
+.contenedorHome{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.imagen{    
+    z-index: 1;
+    width: 100%;
+}
+.titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    z-index: 2;
+    float: left;
+}

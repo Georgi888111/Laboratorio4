@@ -1,0 +1,24 @@
+.Card {
+text-align: left;
+font-family: Helvetica;
+}
+
+.Title {
+font-size:30px;
+
+}
+
+.Precio {
+font-weight:bold;
+font-size: x-large;
+}
+
+.EnvioGratis{
+    color: green;
+    display: block;
+}
+.EnvioCosto{
+    color:orange;
+
+}
+

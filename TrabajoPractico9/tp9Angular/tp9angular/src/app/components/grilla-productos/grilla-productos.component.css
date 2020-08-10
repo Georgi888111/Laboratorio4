@@ -1,0 +1,39 @@
+h1{
+    font-size: 20pt;
+    padding-bottom: 10px;
+    }
+    
+    h3{
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    .contenedor{
+        width: 80%;
+        float: left;
+        margin-left: 10%;
+        margin-top:40px;
+        
+    }
+    
+    .card{
+       
+        padding: 10px;
+        width: 100%;    
+        margin: 10px;
+    }
+    
+    .card-img{
+        height: 100%;
+        
+    }
+    
+    .envioGratis{
+        color: green;
+        font-size: 8pt;
+    }
+    
+    .costoEnvio{
+        color:orange;
+        font-size: 8pt;
+    }
+    

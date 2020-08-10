@@ -1,0 +1,45 @@
+<div>
+  <div class="card-columns">
+    <div class="card">
+      <img
+        class="card-img-top"
+        src="http://localhost:9002/imagenes/{{ instrumento.urlImagen }}"
+        alt=""
+      />
+      <div class="card-body">
+        <h4 class="card-title">{{ instrumento.instrumento }}</h4>
+        <p class="card-text">
+          {{ instrumento.descripcion }}
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <span>{{ instrumento.cantidadVendida }} vendidos</span>
+        <h2 class="card-title">${{ instrumento.precio | number: "3.2-5" }}</h2>
+        <p>
+          <span>Marca: {{ instrumento.marca }}</span>
+          <br />
+          <span>{{ instrumento.modelo }}</span>
+        </p>
+        <p
+          style="color: green; font-size: 10pt;"
+          *ngIf="instrumento.precioEnvio == 'G'; else costoEnvio"
+        >
+          <img src="http://localhost:9002/imagenes/camion.png" />Envío gratis a
+          todo el país
+        </p>
+
+        <ng-template #costoEnvio>
+          Costo de Envío:<br />
+          <p style="color: orange; font-size: 10pt;">
+            ${{ instrumento.precioEnvio }}
+          </p>
+        </ng-template>
+        <button class="btn-outline-primary">
+          Agregar al Carrito
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+.gMap {
+  border: 0;
+  width: 650px;
+  height: 450px;
+ float: right;
+ 
+  position: relative;
+
+}
+
+.location {
+  background-color: #fedb35;
+}

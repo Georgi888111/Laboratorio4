@@ -1,0 +1,43 @@
+<h1 class="tituloListaAdmin">Instrumentos</h1>
+<hr>
+<div class="row">
+  <div class="col-md-12 text-right">
+
+    <button type="button" class="colorBoton" type="button" name="button" (click)="abreFormulario()">
+      Nuevo instrumento
+    </button>
+  </div>
+</div>
+<div class="row animated fadeIn">
+  <div class="col-md-12">
+    <div class="table-responsive">
+      <table width="100%" class="table table-sm table-hover">
+        <thead class="colorHead">
+          <tr>
+            <th style="width: 10%;">#</th>
+            <th style="width: 20%;">Nombre</th>
+            <th style="width: 20%;">Marca</th>
+            <th style="width: 20%;">Modelo</th>
+            <th style="width: 40%;" class="text-right">Opciones</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let instrumento of instrumentos; let i = index">
+              <th scope="row">{{ i + 1 }}</th>
+              <td>{{ instrumento.instrumento }}</td>
+              <td>{{ instrumento.marca }}</td>
+              <td>{{ instrumento.modelo }}</td>
+              <td class="text-right w120">
+                <button class="colorBoton" type="button" name="button" (click)="abreFormularioMod(instrumento.id)">
+                    <i class="fas fa-edit"></i> Modificar
+                  </button>&nbsp;&nbsp;
+                  <button (click)="delete(instrumento.id)" type="button" class="colorBoton" type="button" name="button">
+                    <i class="fas fa-trash-alt"></i> Eliminar
+                  </button>
+              </td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
