@@ -1,0 +1,34 @@
+.homeEstilo{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        background-color: #FCBC04;
+        width: 100%;
+    }
+   
+    .tarjeta{
+        text-align: left;
+        font-family: Helvetica;
+    }
+
+    .Title {
+font-size:30px;
+
+}
+
+.Precio {
+font-weight:bold;
+font-size: x-large;
+}
+
+.EnvioGratis{
+    color: green;
+    display: block;
+}
+.EnvioCosto{
+    color:orange;
+
+}
+
+
+   
