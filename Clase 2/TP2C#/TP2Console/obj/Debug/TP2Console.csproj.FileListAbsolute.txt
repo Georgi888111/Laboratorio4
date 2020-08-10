@@ -1,0 +1,28 @@
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\bin\Debug\TP2Console.exe.config
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\bin\Debug\TP2Console.exe
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\bin\Debug\TP2Console.pdb
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\bin\Debug\Newtonsoft.Json.dll
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\bin\Debug\Newtonsoft.Json.xml
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\obj\Debug\TP2Console.csprojAssemblyReference.cache
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\obj\Debug\TP2Console.csproj.CoreCompileInputs.cache
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\obj\Debug\TP2Console.csproj.CopyComplete
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\obj\Debug\TP2Console.exe
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\obj\Debug\TP2Console.pdb
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\bin\Debug\NUglify.dll
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\bin\Debug\RestSharp.dll
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\bin\Debug\NUglify.xml
+D:\Programacion\Proyectos\VisualStudioProjects\C#\TP2MaseraLabo4\TP2Console\bin\Debug\RestSharp.xml
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\bin\Debug\TP2Console.exe.config
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\bin\Debug\TP2Console.exe
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\bin\Debug\TP2Console.pdb
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\bin\Debug\Newtonsoft.Json.dll
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\bin\Debug\NUglify.dll
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\bin\Debug\RestSharp.dll
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\bin\Debug\Newtonsoft.Json.xml
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\bin\Debug\NUglify.xml
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\bin\Debug\RestSharp.xml
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\obj\Debug\TP2Console.csprojAssemblyReference.cache
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\obj\Debug\TP2Console.csproj.CoreCompileInputs.cache
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\obj\Debug\TP2Console.csproj.CopyComplete
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\obj\Debug\TP2Console.exe
+D:\Programacion\Proyectos\Laboratorio 4\TrabajoPractico2\TrabajoPractico2C#\TP2Console\obj\Debug\TP2Console.pdb
